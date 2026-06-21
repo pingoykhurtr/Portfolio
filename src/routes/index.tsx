@@ -63,6 +63,13 @@ export const Route = createFileRoute("/")({
         content: "Aspiring Data Analyst turning raw data into insights through dashboards and reports.",
       },
     ],
+    links: [
+  {
+    rel: "icon",
+    type: "image/png",
+    href: "/favicon.png",
+  },
+],
   }),
   component: PortfolioPage,
 });
