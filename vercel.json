@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "frameworks": null,
   "builds": [
     {
       "src": ".output/server/index.mjs",
