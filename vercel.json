@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "frameworks": null,
+  "builds": [
+    {
+      "src": ".output/server/index.mjs",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": ".output/server/index.mjs"
+    }
+  ]
+}
